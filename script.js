@@ -12,7 +12,7 @@ const date = () => {return day() + ' ' + month() + ' ' + year()};
 
 const whenArray = [`On the ${date()}`, `Around the ${day()} of ${month()}`, `In ${month()}`, `During year ${year()}`];
 
-const whoArray = ["you", "one of your family number", 'your best friend', 'that guy you hate', 'your colleague', 'your crush', 'your neighboor', 'the President of the United States'];
+const whoArray = ["you", "one of your family member", 'your best friend', 'that guy you hate', 'your colleague', 'your crush', 'your neighboor', 'the President of the United States'];
 
 const actionArray = ['probably die because of', 'discover', 'find', 'learn all about', 'come across', 'dream about', 'watch a strange movie about', 'have an insightful discussion about'];
 
@@ -46,7 +46,5 @@ const where = () => {
 };
 
 const prediction = () => {
-    return when() + ' ' + who() + ' will ' + action() + ' ' + object() + ' ' + where();
+    document.getElementById("output").innerHTML = when() + ' ' + who() + ' will ' + action() + ' ' + object() + ' ' + where();
 };
-
-console.log(prediction());

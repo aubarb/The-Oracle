@@ -20,4 +20,33 @@ const objectArray = ['a yogurt', 'an apple', 'a weird bird', 'a WWII buried bomb
 
 const whereArray = ['in your house', 'in your garden', 'at Starbuck', 'at the grocery store', 'in a dark forest', '... not sure where, but I see the color blue'];
 
+const when = () => {
+    let j = Math.floor(Math.random() * 4);
+    return whenArray[j];
+};
 
+const who = () => {
+    let k = Math.floor(Math.random() * 8);
+    return whoArray[k];
+};
+
+const action = () => {
+    let l = Math.floor(Math.random() * 8);
+    return actionArray[l];
+};
+
+const object = () => {
+    let m = Math.floor(Math.random() * 12);
+    return objectArray[m];
+};
+
+const where = () => {
+    let n = Math.floor(Math.random() * 6);
+    return whereArray[n];
+};
+
+const prediction = () => {
+    return when() + ' ' + who() + ' will ' + action() + ' ' + object() + ' ' + where();
+};
+
+console.log(prediction());

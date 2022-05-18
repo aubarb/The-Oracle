@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url(galaxy-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+a:hover, button:hover{
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+    padding: 5rem;
+    font-family: 'Lora', serif;
+}
+
+.content h1 {
+    font-size: 4rem;
+    color: gold;
+    padding: 2rem;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: white;
+    padding: 2rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: white;
+    padding: 2rem;
+}
+
+.content button {
+    background-color: rgba(1, 1, 1, 0);
+    border-radius: 50%;
+    border: 0;
+}
+
+.content button img {
+    width: 100%;
+    height: auto;
+}
+
+
+.content #output {
+    font-size: 1.7rem;
+    font-style: oblique;
+    padding: 2rem;
+    color: rgb(237, 248, 217);
+}

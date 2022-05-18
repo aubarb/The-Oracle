@@ -16,7 +16,7 @@ const whoArray = ["you", "one of your family member", 'your best friend', 'that 
 
 const actionArray = ['probably die because of', 'discover', 'find', 'learn all about', 'come across', 'dream about', 'watch a strange movie about', 'have an insightful discussion about'];
 
-const objectArray = ['a yogurt', 'an apple', 'a weird bird', 'a WWII buried bomb', 'an old lady', 'a comet', 'a colorful mushroom', 'the truth', 'a heist taking place', 'your biggest fear', 'money', '... Hum, my vision stops here... I think it is related to something...'];
+const objectArray = ['a yogurt', 'an apple', 'a weird bird', 'a WWII bomb buried', 'an old lady', 'a comet', 'a colorful mushroom', 'the truth', 'a heist taking place', 'your biggest fear', 'money', '... Hum, my vision stops here... I think it is related to something...'];
 
 const whereArray = ['in your house', 'in your garden', 'at Starbuck', 'at the grocery store', 'in a dark forest', '... not sure where, but I see the color blue'];
 

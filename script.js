@@ -1,3 +1,6 @@
+
+//Date selection via day, month and year generation for the whenArray
+
 let day = () => {return 1 + Math.floor(Math.random() * 30)};
 
 let month = () => {
@@ -9,6 +12,9 @@ let month = () => {
 let year = () => {return 2022 + Math.floor(Math.random() * 50);};
 
 let date = () => {return day() + ' ' + month() + ' ' + year()};
+
+
+// 5 arrays that are holding the components of the prediction along with the function to randomly select 1
 
 const when = () => {
     let whenArray = [`On the ${date()}`, `Around the ${day()} of ${month()}`, `In ${month()}`, `During year ${year()}`];
@@ -39,6 +45,8 @@ const where = () => {
     let n = Math.floor(Math.random() * 6);
     return whereArray[n];
 };
+
+// Final function to concenate all component into 1 string and link it to the HTML filew
 
 const prediction = () => {
     document.getElementById("output").innerHTML = when() + ' ' + who() + ' will ' + action() + ' ' + object() + ' ' + where();

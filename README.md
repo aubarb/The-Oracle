@@ -1,6 +1,6 @@
 # The Oracle Project
 
-Javascript program that randomly generates a prediction for the user.
+Javascript program that randomly generates a prediction for the user: https://the-oracle-6a7f1.web.app/
 
 ## Description
 
